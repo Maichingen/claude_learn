@@ -12,7 +12,7 @@
 | Lieblingswelten für Merkhilfen | [ausfüllen, z. B. 2–3 Filme/Bücher/Spiele] |
 | Konnektoren | nur auf ausdrücklichen Wunsch |
 
-## Quellen
+## Quellen (Dateien in `hefte/`)
 | Datei | Beschreibung | Einsendeaufgabe |
 |---|---|---|
 | | | |

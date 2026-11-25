@@ -3,8 +3,8 @@
 Ein fertiges Regelwerk, mit dem Claude Code als persönlicher Lerncoach für **ein Modul** arbeitet: Erstkontakt, verteilte Wiederholung, Fehleranalyse, Klausursimulationen, tägliche Auswertung. Es ist über ein ganzes Modul erprobt und neutral, ohne Lernstände oder Stoff.
 
 ## So startest du
-1. Repo als **privates** Repo kopieren (Template oder Fork), eins pro Modul.
-2. Die Studienhefte (PDF) in den Ordner legen. Die `.gitignore` hält sie aus dem Repo heraus.
+1. Repo als **privates** Repo kopieren (Template oder Fork), eins pro Modul. Privat ist Pflicht, weil die Studienhefte hineinkommen.
+2. **Studienhefte (PDF) in den Ordner `hefte/` legen**, dazu Einsendeaufgaben und Altklausuren, falls vorhanden. Danach committen und pushen, damit Claude sie sieht.
 3. Claude Code im Ordner starten und **„Neues Modul“** schreiben. Claude führt durch `SETUP.md`: Rahmen klären, Hefte zusammenfassen, Klausurrelevanz, Cluster, Plan, Automatik.
 4. Danach jeden Tag **„Weitermachen“**. Claude misst die Zeit, wählt den nächsten Schritt und pflegt alle Dateien selbst.
 
@@ -16,6 +16,7 @@ Ein fertiges Regelwerk, mit dem Claude Code als persönlicher Lerncoach für **e
 | `SETUP.md` | Einrichtung eines neuen Moduls |
 | `tagesanalyse.py` | Sessionstart-Check, Tagesbericht, Wochenbilanz (`--start`, `--woche`) |
 | `export_schwachstellen.py` | Schwachstellen als Handy-PDF (braucht `pip install fpdf2`) |
+| `hefte/` | **deine Studienhefte (PDF)** |
 | `config.md`, `einstellungen.json` | Modul-Einstellungen (beim Setup ausgefüllt) |
 | übrige `.md`/`.csv` | leere Arbeitsdateien |
 

@@ -1,5 +1,2 @@
-# Studienmaterial (Urheberrecht der Hochschule) nicht pushen
-*.pdf
-!schwachstellen.pdf
 __pycache__/
 *.pyc

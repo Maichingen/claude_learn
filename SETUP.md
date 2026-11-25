@@ -3,6 +3,8 @@
 Claude führt diese Schritte der Reihe nach aus, **jeweils auf „Go“ des Users**. Jeder Schritt endet mit einer kurzen Bestätigung.
 
 ## Schritt 0 – Rahmen klären
+Vorher prüfen: Liegen PDFs in `hefte/`? Wenn nicht, zuerst darum bitten.
+
 Diese Fragen stellt Claude, eine nach der anderen:
 1. Wie heißt das Modul, und an welcher Hochschule?
 2. Wie sieht die Klausur aus (Dauer, Punkte, Aufgabenzahl, Fragetyp, getippt/handschriftlich, Skizzen)?
@@ -14,7 +16,7 @@ Diese Fragen stellt Claude, eine nach der anderen:
 Danach schreibt Claude `config.md` und `einstellungen.json` (`modul_kurz`, `ek_start` = erster Tag des Fahrplans im Format JJJJ-MM-TT, `ek_pro_woche`) und setzt die Platzhalter in `CLAUDE.md` und `lernsystem_logik.md` Kap. 1.
 
 ## Schritt 1 – Hefte einlesen (je Heft einzeln)
-Die PDFs liegen im Ordner. **Studienmaterial nicht in ein öffentliches Repo pushen**, dafür ist die `.gitignore` da.
+Die PDFs liegen im Ordner **`hefte/`**. Ist er leer, bittet Claude den User, die Hefte dort abzulegen und zu pushen. **Das Repo muss privat sein** (Urheberrecht).
 
 1. **Lesen:** Überschriften, Lernziele und Fazit zuerst. Dann alle Themen auflisten, auch Nebenthemen, Beispielboxen und Exkurse. Je Sinnabschnitt klären: Was ist das Kernthema? Welche Modelle? Warum relevant? Wie hängt es mit anderen Themen zusammen?
 2. **Schreiben:** `zusammenfassung_heft_N.md`, die ohne das Original verständlich ist. Je Thema gibt es einen Schnellüberblick und eine Vertiefung im Retain-Format (Überschriften als Fragen, kurze Blöcke).
